@@ -1,0 +1,799 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.shutter{
+    font-family: 'PT Serif', serif;
+}
+.red{
+    color: red;
+}
+.ex{
+    color: white;
+    -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: red;   
+}
+.menu{
+    
+    margin-left: 155px;
+    margin-top: 12px;
+}
+.her{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: -23px;
+    color: red;
+}
+.he{
+    margin-left: 34px;
+    margin-top: 10px;
+    font-size: 28px;
+   animation: cam infinite 5s;
+    color: red;
+}
+
+@keyframes cam{
+    0%{
+        color: red;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: yellow;
+    }
+
+}
+.si{
+    animation: ew infinite 5s;
+    margin-left: 7px;
+    font-size: 18px;
+    border: none;
+    border-radius: 27px;
+    padding: 4px 15px;
+    background: gainsboro;
+    font-weight: bold;
+}
+.lo{
+    
+    margin-left: 18px;
+    font-size: 18px;
+    animation: new infinite 5s;
+}
+.si:hover{
+opacity: .5;
+font-weight: bold;
+}
+.lo:hover{
+    background: red;
+    border-radius: 27px;
+    transition: 2s;
+    padding: 4px 15px;
+    color: antiquewhite;
+}
+@keyframes new{
+    0%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes ew{
+    0%{
+        color: black;
+    }
+    25%{
+        color: darkgreen;
+    }
+    50%{
+        color: darkred;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: palevioletred;
+    }
+}
+.on{
+    padding: 7px 97px;
+    text-decoration: none;
+    margin-top: 26px;
+    margin-left: 72px;
+    border: none;
+    background: tomato;
+    color: white;
+    border-radius: 18px;
+    font-weight: bold;
+    animation: ra infinite 5s;
+}
+@keyframes ra{
+    0%{
+        box-shadow: 2px 2px 3px white;
+    }
+    25%{
+        box-shadow: 2px 2px 3px black;
+    }
+    50%{
+        box-shadow: 2px 2px 3px yellow;
+    }
+    75%{
+        box-shadow: 2px 2px 3px green
+    }
+    100%{
+        box-shadow: 2px 2px 3px orange;
+    }
+
+}
+.on:hover{
+    background: red;
+}
+.off:hover{
+    background: red;
+}
+.one{
+    margin-top: 170px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.two{
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.off{
+    padding: 7px 28px;
+    text-decoration: none;
+    border: none;
+    background: tomato;
+    color: white;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 62px;
+    margin-top: 9px;
+}
+.black{
+    padding: 15px 21px;
+    margin-top: 25px;
+    background: black;
+    border-radius: 5px;
+}
+.white{
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-left: -12px;
+}
+.share{
+    font-size: 13px;
+}
+
+
+
+.mid{
+   
+    height: 550px;
+    animation: dress infinite 10s;
+
+}
+@keyframes dress{
+    0%{
+        background: url(../images/avenue-815297_1920.jpg);
+        background-size: cover;
+    }
+    25%{
+        background: url(../images/hills-615429_1920.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(../images/mountains-100367_1920.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: url(../images/tree-736885_1280.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(../images/hills-615429_1920.jpg);
+        background-size: cover;
+    }
+}
+
+.imone{
+    animation: imm infinite 5s;
+    width: 180px;
+    height: 87px;
+}
+.imtwo{
+    animation: iii infinite 5s;
+    width: 180px;
+    height: 87px;
+}
+.imth{
+    animation: inn infinite 5s;
+    width: 180px;
+    height: 87px;
+}
+
+@keyframes imm{
+    0%{
+        background: url(../images/boy-509488_1920.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(../images/child-3194978_1920.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(../images/girl-2696947_1920.jpg);
+        background-size: cover;
+    }
+}
+
+@keyframes iii{
+    0%{
+        background: url(../images/girl-438133_1920.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(../images/robot-3010309_1920.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(../images/woman-1442373_1920.jpg);
+        background-size: cover;
+    }
+}
+
+@keyframes inn{
+    0%{
+        background: url(../images/woman-1446557_1920.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(../images/woman-1692849_1920.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(../images/beard-1845166_1920.jpg);
+        background-size: cover;
+    }
+}
+
+.color{
+    animation: co infinite 5s;
+    width: 315px;
+    height: 230px;
+    margin-left: 15px;
+
+}
+.grad{
+    animation: grad infinite 5s;
+    width: 315px;
+    height: 230px;
+    margin-left: 20px;
+}
+.fire{
+    animation: fi infinite 5s;
+    width: 315px;
+    height: 230px;
+    margin-left: 20px;
+}
+.rad{
+    animation: rad infinite 5s;
+    width: 315px;
+    height: 230px;
+    margin-left: 20px;
+}
+.a{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 96px;
+}
+.b{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 96px;
+}
+.c{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 96px;
+}
+.d{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 96px;
+}
+.head{
+    margin-top: 49px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+}
+
+@keyframes co{
+
+0%{
+    background: red;
+}
+25%{
+    background: blue;
+}
+50%{
+    background: black;
+}
+75%{
+    background: orangered;
+}
+100%{
+    background: green;
+}
+
+
+}
+
+@keyframes grad{
+
+    0%{
+        background: linear-gradient(to left,skyblue,white);
+    }
+    25%{
+        background: linear-gradient(to left,pink,rgb(126, 212, 147));
+    }
+    50%{
+        background: linear-gradient(to left,rgb(216, 128, 28),black);
+    }
+    75%{
+        background: linear-gradient(to left,rgb(66, 8, 100),rgb(202, 35, 35));
+    }
+    100%{
+        background: linear-gradient(to left,rgb(207, 233, 114),rgb(9, 22, 94));
+    }
+    
+    
+    }
+    @keyframes fi{
+
+        0%{
+            background: url(../images/smoke.gif);
+            background-size: cover;
+        }
+        25%{
+            background: url(../images/fire.gif);
+            background-size: cover;
+        }
+        50%{
+            background: url(../images/7a4067e9094ea884a980dfa8c83ebc47_w200.gif);
+            background-size: cover;
+        }
+        75%{
+            background: url(../images/leak-dev.gif);
+            background-size: cover;
+        }
+        100%{
+            background: url(../images/FavorableAstonishingKestrel-size_restricted.gif);
+            background-size: cover;
+        }
+        
+        
+        }
+
+        @keyframes rad{
+
+            0%{
+                background: radial-gradient(yellow,black);
+            }
+            25%{
+                background: linear-gradient(red,gainsboro);
+            }
+            50%{
+                background: linear-gradient(purple,tomato);
+            }
+            75%{
+                background: linear-gradient(pink,orangered);
+            }
+            100%{
+                background: linear-gradient(gray,blue);
+            }
+            
+            
+            }
+
+.owl_one{
+    width: 300px;
+}
+.down{
+    margin-left: 101px;
+    margin-top: 24px;
+}
+.bil{
+animation: tex infinite 5s;
+}
+.bil_one{
+    animation: texx infinite 5s;
+    }
+.bil_two{
+    animation: texxx infinite 5s;
+        }
+.bil_th{
+    animation: te infinite 5s;
+     }
+
+@keyframes tex{
+    0%{
+        background: red;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30%{
+        background: blueviolet;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60%{
+        background: indianred;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: rgb(107, 155, 101);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@keyframes texx{
+    0%{
+        background: orangered;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30%{
+        background: olivedrab;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60%{
+        background: black;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: crimson;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@keyframes texxx{
+    0%{
+        background: green;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30%{
+        background: cornflowerblue;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60%{
+        background: indigo;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: mediumseagreen;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@keyframes te{
+    0%{
+        background: midnightblue;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30%{
+        background: coral;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60%{
+        background: chartreuse;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: goldenrod;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.bor{
+    animation: brdr infinite 5s;
+}
+
+@keyframes brdr{
+    0%{
+        border: 2px solid navy;
+    }
+    25%{
+        border: 2px solid greenyellow;
+    }
+    50%{
+        border: 2px solid orangered;
+    }
+    75%{
+        border: 2px solid seagreen;
+    }
+    100%{
+        border: 2px solid red;
+    }
+
+}
+.sub{
+   
+    color: black;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    margin-left: 574px;
+    animation: sc infinite 5s;
+}
+@keyframes sc{
+    0%{
+        margin-left: 20px;
+     }
+     25%{
+        margin-right: 50px;
+     }
+     50%{
+        margin-left: 50px;
+     }
+     75%{
+      color: red;
+     }
+     100%{
+        margin-right: 50px;
+     }
+}
+.you{
+   
+    margin-top: 80px;
+    border: 3px solid red;
+    animation: tube infinite 5s;
+}
+.ma{
+    margin-top: 38px;
+    border: 3px solid red;
+    animation: map infinite 5s;
+}
+@keyframes tube{
+
+    0%{
+        border-radius: 10px;
+    }
+    50%{
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px ;
+    }
+    100%{
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
+@keyframes map{
+
+    0%{
+        border-radius: 10px;
+    }
+    50%{
+       border-radius: 50% ;
+    }
+    100%{
+        border-radius:10px ;
+    }
+}
+    
+
+.line{
+    width: 596px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+    color: whitesmoke;
+    background: red;
+    padding-top: 26px;
+    margin-left: 363px;
+    border-radius: 5px;
+}
+
+@keyframes las{
+    0%{
+        text-shadow: 1px 1px 2px white;
+    }
+    50%{
+        text-shadow: 1px 1px 2px red;
+    }
+    100%{
+        text-shadow: 1px 1px 2px blue;
+    }
+}
+.last{
+    height: 48px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 13px;
+    animation: las infinite 5s;
+}
+.shad{
+    border-radius: 5px;
+}
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:425px){
+
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        margin: 0;
+        padding: 0;
+    }
+    
+.shutter{
+    text-align: center;
+    margin-left: -3px !important;
+    
+}
+.lo{
+    margin-left: 72px;
+}
+.her{
+   display: none !important;
+}
+.he{
+    display: none !important;
+ }
+ .mid{
+    height: 600px;
+ }
+ .get{
+    font-size: 20px !important;
+ }
+ .lis{
+    font-size: 15px !important;
+ }
+ .one{
+    margin-top: 4px !important;
+ }
+ .two{
+    margin-left: 2px;
+    margin-top: 60px;
+ }
+ .on{
+    font-size: 10px;
+    padding: 4px 24px;
+    margin-left: 64px;
+    margin-top: -10px !important;
+ }
+ .point{
+    height: 75px;
+ }
+ .ten{
+    height: 85px;
+ }
+ .off{
+    font-size: 12px;
+    padding: 4px 20px;
+    margin-left: -123px;
+    margin-top: 57px;
+    
+ }
+ .imone{
+    
+    width: 180px;
+    margin-left: 25px;
+   
+}
+.head{
+   font-size: 18px;
+}
+.res{
+    display: inline-block !important;
+}
+.ow{
+    display: inline-block !important;
+}
+.color{
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+.grad{
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+.rad{
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+.fire{
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+.you{
+    width:200px;
+    height: 140px;
+    margin-left: 87px;
+}
+.ma{
+    width:200px;
+    height: 200px;
+    margin-left: 87px;
+}
+.sub{
+    margin-top: 29px;
+}
+.last{
+    font-size: 10px;
+}
+.bor{
+    font-size: 13px !important;
+    margin-top: 11px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
